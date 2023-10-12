@@ -8,7 +8,6 @@ class RPS(Enum):
     PAPER = 2
     SCISSORS = 3
 
-
 print("")
 playerchoice = input(
     "Enter...\n1 for Rock,\n2 for Paper, or \n3 for Scissors:\n\n")
@@ -27,11 +26,11 @@ print("You chose " + str(RPS(player)).replace('RPS.', '') + ".")
 print("Python chose " + str(RPS(computer)).replace('RPS.', '') + ".")
 print("")
 
-if player == 1 and computer == 3:
+if player == 1 and computer == 3: # you choose Rock and computer choose Scissor
     print("🎉 You win!")
-elif player == 2 and computer == 1:
+elif player == 2 and computer == 1: # you choose Paper and computer choose Rock
     print("🎉 You win!")
-elif player == 3 and computer == 2:
+elif player == 3 and computer == 2: # you choose Scissor and computer choose Paper
     print("🎉 You win!")
 elif player == computer:
     print("😲 Tie game!")
