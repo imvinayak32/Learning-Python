@@ -1,3 +1,5 @@
+# This is custom module 
+# From a custom module we can also called a built-in module
 from random import choice
 
 capital = "Topeka"
