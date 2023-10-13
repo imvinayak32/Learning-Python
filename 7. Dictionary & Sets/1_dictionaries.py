@@ -55,6 +55,11 @@ print(band2)
 
 del band2
 
+wife = {'name': 'Rose', 'age': 33, 'has_hair': 'True'}
+print(wife.setdefault('has_hair', True))
+print(wife)
+# {'name': 'Rose', 'age': 33, 'has_hair': True}
+
 
 
 

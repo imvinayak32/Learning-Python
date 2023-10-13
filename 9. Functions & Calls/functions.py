@@ -14,7 +14,7 @@ def sum(num1=0, num2=0):
 total = sum(7, 2)
 print(total)
 
-
+# Arguments :-
 def multiple_items(*args):
     print(args)
     print(type(args))
@@ -22,7 +22,7 @@ def multiple_items(*args):
 
 multiple_items("Dave", "John", "Sara")
 
-
+# Keyword Arguments :-
 def mult_named_items(**kwargs):
     print(kwargs)
     print(type(kwargs))
